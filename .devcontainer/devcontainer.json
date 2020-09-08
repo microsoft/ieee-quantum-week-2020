@@ -1,0 +1,9 @@
+{
+    "dockerFile": "../Dockerfile",
+    "containerEnv": {
+        "IQSHARP_HOSTING_ENV": "ieee-quantum-week-2020-devcontainer",
+    },
+    "extensions": [
+        "quantum.quantum-devkit-vscode"
+    ]
+}
