@@ -1,0 +1,51 @@
+:root {
+    --main-font:  Segoe UI, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    --code-font:  Cascadia Code, Fira Mono, Consolas;
+
+    --azure-quantum-accent: rgb(107,41,41);
+    --bg-color: white;
+    --fg-color: black;
+    --highlight-color: var(--azure-quantum-accent);
+}
+
+body.notebook_app.rise-enabled {
+    background-color: var(--bg-color);
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal strong {
+    color: var(--highlight-color);
+}
+
+.reveal p, .reveal .rendered_html {
+    font-family: var(--main-font);
+    color: var(--fg-color);
+}
+
+.reveal .input_area {
+    font-family: var(--code-font);
+}
+
+.reveal, .reveal .output_prompt {
+    color: var(--fg-color);
+}
+
+.reveal pre {
+    font-family: var(--code-font);
+}
+
+.reveal .output_result pre, .reveal .output_text pre {
+    color: var(--fg-color);
+}
+
+.rendered_html tbody {
+    color: var(--fg-color);
+}
+
+.rendered_html thead {
+    color: var(--highlight-color);
+}
