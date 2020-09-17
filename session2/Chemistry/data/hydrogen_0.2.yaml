@@ -36,7 +36,7 @@ problem_description:
       - [1,1,2,2,0.663472101]
       - [2,2,2,2,0.697398010]
   initial_state_suggestions:
-  - energy: {units: hartree, value: -1.13}
+  - energy: {units: hartree, value: -1.1372704220924401}
     method: sparse_multi_configurational
     label: '|G>'
     superposition:
