@@ -49,7 +49,7 @@ problem_description:
             - [0.001, "(2a)+", "(1a)"]
             - [-0.001, "(2b)+", "(1b)"]
         two_body_amplitudes: 			# t^{pq}_{rs} p q r s 			# If this is a PQQR term, the middle two indices must coincide.
-            - [-0.001, "(2a)+", "(2b)+", "(1a)", "(1b)"]
+            - [-0.113, "(2a)+", "(2b)+", "(1a)", "(1b)"]
   metadata: {molecule_name: H2}
   n_electrons: 2
   n_orbitals: 2
