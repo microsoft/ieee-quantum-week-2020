@@ -41,13 +41,6 @@ def robust_phase_estimation(
         energy_offset
     )
 
-    GetEnergyByTrotterization.estimate_resources(
-        JWEncodedData=jw_encoded,
-        nBitsPrecision=num_bits_precision,
-        trotterStepSize=trotter_step_size,
-        trotterOrder=trotter_order
-    )
-
     _log.info("Getting energy by trotterization...")
     phase, energy = GetEnergyByTrotterization.simulate(
         JWEncodedData=jw_encoded,
