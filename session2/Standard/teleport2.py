@@ -26,5 +26,5 @@ operation TeleportClassicalMessage (message : Bool) : Bool {
 }
 """)
 
-assert teleport.simulate(True)
-assert not teleport.simulate(False)
+assert teleport.simulate(message=True)
+assert not teleport.simulate(message=False)
