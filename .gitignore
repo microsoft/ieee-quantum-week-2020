@@ -351,3 +351,4 @@ MigrationBackup/
 
 # Jupyter
 tmp*
+.ipynb_checkpoints/
