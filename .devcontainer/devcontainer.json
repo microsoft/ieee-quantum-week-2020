@@ -4,6 +4,9 @@
         "IQSHARP_HOSTING_ENV": "ieee-quantum-week-2020-devcontainer",
     },
     "extensions": [
-        "quantum.quantum-devkit-vscode"
+        "quantum.quantum-devkit-vscode",
+        "editorconfig.editorconfig",
+        "ms-python.python",
+        "robbowen.synthwave-vscode"
     ]
 }

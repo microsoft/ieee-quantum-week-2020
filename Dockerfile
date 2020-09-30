@@ -9,6 +9,11 @@ RUN chown -R ${USER} ${HOME}
 
 # Install RISE.
 RUN pip install rise
+RUN pip install ipykernel
+RUN pip install scipy
+RUN pip install matplotlib
+RUN pip install seaborn
+RUN pip install pyscf
 
 # Finish by dropping back to the notebook user.
 USER ${USER}
