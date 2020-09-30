@@ -10,7 +10,7 @@ namespace Test.Teleportation {
     operation RunProgram () : Unit {
      
         for (idxRun in 1 .. 8) {
-            let sent = DrawCategorical([0.5, 0.5]) == 0;
+            let sent = DrawRandomBool(0.5);
             let received = TeleportClassicalMessage(sent);
             Message($"Round {idxRun}: Sent {sent}, got {received}.");
             Message(sent == received ? "Teleportation successful!" | "");

@@ -6,7 +6,7 @@ from qsharp.chemistry import load_broombridge, load_fermion_hamiltonian, load_in
 
 def create_H2_molecule(bond_length):
     # Create molecule object with PySCF
-    H2 = [['H',[ 0, 0, 0]], ['H',[0,0, bond_length]]]
+    H2 = [['H', [0, 0, 0]], ['H', [0, 0, bond_length]]]
     mol = gto.Mole()
     mol.atom = H2
     mol.basis = "sto-3g"

@@ -21,7 +21,7 @@ namespace Test.MachineLearning {
 
     function DefaultSchedule(samples : Double[][]) : SamplingSchedule {
         return SamplingSchedule([
-            0..Length(samples) - 1
+            IndexRange(samples)
         ]);
     }
 
