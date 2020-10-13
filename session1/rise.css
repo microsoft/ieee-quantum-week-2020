@@ -49,3 +49,8 @@ body.notebook_app.rise-enabled {
 .rendered_html thead {
     color: var(--highlight-color);
 }
+
+#exit_b, #help_b, div.slide-number, .controls {
+    display: none !important;
+}
+
